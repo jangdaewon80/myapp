@@ -6,6 +6,8 @@
 
     <bean id="student" class="com.test.Student"></bean>
     <bean id="employee" class="com.test.Employee"></bean>
+        <proterty name = "address" ref = "address">
+    </beans>
     <bean id="address" class="com.test.Address"></bean>
 
 </beans>
